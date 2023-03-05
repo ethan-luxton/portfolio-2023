@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+// Header
+
+#logo {
+    transition: 0.5s;
+    width: 50%;
+    border: 3px solid #E7DFDD;
+    border-radius: 10px;
+    &:hover {
+        transition: 0.5s;
+        border-color: #A239CA;
+    }
+}
+.header {
+    background-color: #0E0B16;
+    
+}
+.about, .blog, .portfolio {
+    transition: 0.5s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+    color: #E7DFDD;
+    &:hover {
+        transition: 0.5s;
+        color: #A239CA;
+    }
+}
+
+
+.Nav {
+    
+    background-color: #0E0B16;
+}
+:root{
+    
+    --gradient-rainbow: linear-gradient(
+    115deg,
+    #0E0B16,
+    #A239CA,
+    #4717F6,
+    #E7DFDD
+  ) !important;
+    --color-dark: #131417;
+    --color-white: #E7DFDD;
+}
+h1 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 3.4rem;
+    line-height: 6.8rem;
+    
+    color: #E7DFDD;
+    
+    & span {
+        position: relative;
+        background-image: var(--gradient-rainbow) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    } span::before {
+        position: absolute;
+        content: "";
+        height: 0.2rem;
+        width: 50%;
+        display: block;
+        bottom: 0;
+        right: 0;
+        border-radius: 0.4rem 0 0.4rem 0;
+        background-image: var(--gradient-rainbow);
+    }  
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

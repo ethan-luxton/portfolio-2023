@@ -1,0 +1,57 @@
+{
+    "header": {
+      "name": "Ethan Luxton",
+      "jobTitle": "Software Engineer",
+      "keywordWheel": {
+        "1": "Creative",
+        "2": "Client-Focused",
+        "3": "Full-stack",
+        "4": "Innovation-driven"
+      }
+    },
+    "about": {
+      "image": "your-image-url.jpg",
+      "bio": "Your bio goes here",
+      "experience": [
+        {
+          "jobTitle": "Job Title",
+          "employer": "Employer",
+          "startDate": "Start Date",
+          "endDate": "End Date",
+          "description": "Job description goes here"
+        },
+        {
+          "jobTitle": "Job Title 2",
+          "employer": "Employer 2",
+          "startDate": "Start Date 2",
+          "endDate": "End Date 2",
+          "description": "Job description goes here"
+        }
+      ],
+      "technologies": [
+        "Technology 1",
+        "Technology 2",
+        "Technology 3"
+      ]
+    },
+    "footer": {
+      "copyright": {
+        "text": "Copyright © Your Name",
+        "url": "/"
+      },
+      "social": [
+        {
+          "icon": "fa-twitter",
+          "url": "https://twitter.com/yourusername"
+        },
+        {
+          "icon": "fa-linkedin",
+          "url": "https://www.linkedin.com/in/yourusername"
+        },
+        {
+          "icon": "fa-github",
+          "url": "https://github.com/yourusername"
+        }
+      ]
+    }
+}
